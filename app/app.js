@@ -1,7 +1,7 @@
 ;(function(){
 	'use strict';
 
-	angular.module('app',['ui.router','app.main'])
+	angular.module('app',['ui.router', 'LocalStorageModule', 'app.main'])
 	//.config(['$httpProvider', '$urlRouterProvider', '$stateProvider',config])
 	.run(['$rootScope', '$state', '$stateParams', '$location',run]);
 	///////////
